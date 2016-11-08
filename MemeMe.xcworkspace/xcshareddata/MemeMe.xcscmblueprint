@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EDEE0A48CF6744432C13B94DBC0B28D8CDFAF90C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EDEE0A48CF6744432C13B94DBC0B28D8CDFAF90C" : 9223372036854775807,
+    "26F059469EF74C9DABC787ACADC30CC00FCA37D4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3593A006-F625-49EA-A394-CEBE784E85B4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EDEE0A48CF6744432C13B94DBC0B28D8CDFAF90C" : "MemeMe\/",
+    "26F059469EF74C9DABC787ACADC30CC00FCA37D4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MemeMe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MemeMe.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jasonpaulso\/udacity-pitch-perfect.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "26F059469EF74C9DABC787ACADC30CC00FCA37D4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jasonpaulso\/MemeMe.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDEE0A48CF6744432C13B94DBC0B28D8CDFAF90C"
+    }
+  ]
+}

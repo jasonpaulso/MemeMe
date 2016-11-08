@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Meme Editor View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MemeMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MemeEditorViewController" customModule="MemeMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -72,15 +72,15 @@
                                 <rect key="frame" x="0.0" y="692" width="414" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="8SX-Gs-PyN"/>
-                                    <barButtonItem systemItem="camera" id="sIA-E9-1MH">
+                                    <barButtonItem tag="1" systemItem="camera" id="sIA-E9-1MH">
                                         <connections>
-                                            <action selector="selectOrTakePhotoButton:" destination="BYZ-38-t0r" id="a2n-pD-tzm"/>
+                                            <action selector="action:" destination="BYZ-38-t0r" id="0au-9s-7lg"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="XfF-X5-9up"/>
                                     <barButtonItem title="Album" id="XoN-vp-y5A">
                                         <connections>
-                                            <action selector="libraryPickerButton:" destination="BYZ-38-t0r" id="eZ4-Ye-cvr"/>
+                                            <action selector="action:" destination="BYZ-38-t0r" id="h7x-lD-fQm"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="IJe-C7-fYc"/>
@@ -116,6 +116,7 @@
                     <connections>
                         <outlet property="actionButton" destination="Ufr-OX-CWa" id="vS8-Z6-zep"/>
                         <outlet property="bottomLabel" destination="id1-zQ-oAf" id="9q4-b5-CIx"/>
+                        <outlet property="cameraButton" destination="sIA-E9-1MH" id="2mK-8n-afX"/>
                         <outlet property="initialViewPlaceHolder" destination="UGs-Dj-biJ" id="NYW-gM-buU"/>
                         <outlet property="memeImageView" destination="XJR-gv-BGB" id="4dO-SJ-hQ1"/>
                         <outlet property="navBar" destination="B6t-26-bDf" id="O0O-ZO-a6u"/>

@@ -1,0 +1,19 @@
+PODS:
+  - DKImagePickerController (3.4.0):
+    - DKImagePickerController/Camera (= 3.4.0)
+    - DKImagePickerController/ImageManager (= 3.4.0)
+  - DKImagePickerController/Camera (3.4.0)
+  - DKImagePickerController/ImageManager (3.4.0)
+  - IQKeyboardManagerSwift (4.0.6)
+
+DEPENDENCIES:
+  - DKImagePickerController
+  - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  DKImagePickerController: 5e64adbe34c27cc63bc38cccdaf3a40c3b4f729c
+  IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+
+PODFILE CHECKSUM: 6c3290a2db741e4ce190cbac6effe40c9934e3c0
+
+COCOAPODS: 1.1.1

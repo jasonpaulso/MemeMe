@@ -19,11 +19,9 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
         
     }
     
-    
-    
+
     @IBOutlet weak var toolBar: UIToolbar!
     @IBOutlet weak var navBar: UINavigationBar!
-//    @IBOutlet weak var initialViewPlaceHolder: UIView!
     @IBOutlet weak var memeImageView: UIImageView!
     @IBOutlet weak var topLabel: UITextField!
     @IBOutlet weak var bottomLabel: UITextField!
@@ -111,19 +109,9 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
         self.dismiss(animated: true, completion: nil)
     }
     
-//    func setInitialView() {
-//        imagePicker.delegate = self
-//        memeImageView.image = nil
-//        initialViewPlaceHolder.isHidden = false
-//        actionButton.isEnabled = false
-//        prepareTextField(textField: topLabel, defaultText: "Top Label")
-//        prepareTextField(textField: bottomLabel, defaultText: "Bottom Label")
-//    }
-    
     func setInitialView() {
         imagePicker.delegate = self
         memeImageView.image = nil
-//        initialViewPlaceHolder.isHidden = false
         memeShareButton.isEnabled = false
         prepareTextField(textField: topLabel, defaultText: "Top Label")
         prepareTextField(textField: bottomLabel, defaultText: "Bottom Label")
@@ -171,10 +159,9 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
         } else {
             return
         }
-//        actionButton.isEnabled = true
+
         memeShareButton.isEnabled = true
         memeImage = newImage
-//        initialViewPlaceHolder.isHidden = true
         memeImageView.image = memeImage
         
         dismiss(animated: true)

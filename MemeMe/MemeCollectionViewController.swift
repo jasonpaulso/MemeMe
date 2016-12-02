@@ -37,7 +37,7 @@ class MemeCollectionViewController: UICollectionViewController {
         self.collectionView!.reloadData()
     }
     
-    // MARK: UICollectionViewDataSource
+   
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
